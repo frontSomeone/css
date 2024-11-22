@@ -1,0 +1,36 @@
+.cardOne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 600px;
+    margin: 20px;
+    border: 1px solid;
+    border-radius: 30px;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: rgb(245, 46, 146);
+    color: rgb(202, 230, 49);
+}
+
+.cardOne.active {
+    background-color: rgb(202, 230, 49);
+    color: rgb(245, 46, 146);
+}
+
+.imgOne {
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.btn {
+    
+    margin-top: 15px;
+    padding: 10px;
+    background-color: rgb(166, 240, 166);
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
